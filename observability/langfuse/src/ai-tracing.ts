@@ -323,6 +323,10 @@ export class LangfuseExporter implements AITracingExporter {
         payload.modelParameters = llmAttr.parameters;
         attributesToOmit.push('parameters');
       }
+
+      if (span.metadata.langfuseMetadata) { 
+        payload.langfuse = langfuseMetadata
+      }
     }
 
     payload.metadata = {
@@ -330,6 +334,8 @@ export class LangfuseExporter implements AITracingExporter {
       ...omitKeys(attributes, attributesToOmit),
       ...span.metadata,
     };
+
+    
 
     if (span.errorInfo) {
       payload.level = 'ERROR';
