@@ -1,5 +1,14 @@
 # @mastra/client-js
 
+## 0.14.0-alpha.1
+
+### Patch Changes
+
+- Fix duplicate messages being created using clientTools with client-js sdk ([#8187](https://github.com/mastra-ai/mastra/pull/8187))
+
+- Updated dependencies [[`809eea0`](https://github.com/mastra-ai/mastra/commit/809eea092fa80c3f69b9eaf078d843b57fd2a88e), [`db1891a`](https://github.com/mastra-ai/mastra/commit/db1891a4707443720b7cd8a260dc7e1d49b3609c)]:
+  - @mastra/core@0.18.1-alpha.1
+
 ## 0.14.0-alpha.0
 
 ### Minor Changes

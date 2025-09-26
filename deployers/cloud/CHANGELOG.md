@@ -1,5 +1,15 @@
 # @mastra/deployer-cloud
 
+## 0.18.1-alpha.1
+
+### Patch Changes
+
+- Fix peer deps ([#8134](https://github.com/mastra-ai/mastra/pull/8134))
+
+- Updated dependencies [[`57b75b0`](https://github.com/mastra-ai/mastra/commit/57b75b01c0c64d91c50d7384c700afda89456fe8), [`4c5e65d`](https://github.com/mastra-ai/mastra/commit/4c5e65de746fbdab23eb6072cb999f4c7aeef9f3), [`809eea0`](https://github.com/mastra-ai/mastra/commit/809eea092fa80c3f69b9eaf078d843b57fd2a88e), [`db1891a`](https://github.com/mastra-ai/mastra/commit/db1891a4707443720b7cd8a260dc7e1d49b3609c)]:
+  - @mastra/deployer@0.18.1-alpha.1
+  - @mastra/core@0.18.1-alpha.1
+
 ## 0.18.1-alpha.0
 
 ### Patch Changes

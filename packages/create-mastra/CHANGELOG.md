@@ -1,5 +1,11 @@
 # create-mastra
 
+## 0.13.3-alpha.1
+
+### Patch Changes
+
+- Add conditional chaining to scorer.agentNames return ([#8199](https://github.com/mastra-ai/mastra/pull/8199))
+
 ## 0.13.3-alpha.0
 
 ### Patch Changes

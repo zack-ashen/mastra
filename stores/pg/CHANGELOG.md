@@ -1,5 +1,14 @@
 # @mastra/pg
 
+## 0.16.2-alpha.0
+
+### Patch Changes
+
+- add SSL support to connection string configuration ([#8178](https://github.com/mastra-ai/mastra/pull/8178))
+
+- Updated dependencies [[`809eea0`](https://github.com/mastra-ai/mastra/commit/809eea092fa80c3f69b9eaf078d843b57fd2a88e), [`db1891a`](https://github.com/mastra-ai/mastra/commit/db1891a4707443720b7cd8a260dc7e1d49b3609c)]:
+  - @mastra/core@0.18.1-alpha.1
+
 ## 0.16.1
 
 ### Patch Changes

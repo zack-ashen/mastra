@@ -1,5 +1,13 @@
 # @mastra/core
 
+## 0.18.1-alpha.1
+
+### Patch Changes
+
+- Bring back ToolInvocationOptions for createTool execute function ([#8206](https://github.com/mastra-ai/mastra/pull/8206))
+
+- fixNetworkChunkType ([#8210](https://github.com/mastra-ai/mastra/pull/8210))
+
 ## 0.18.1-alpha.0
 
 ### Patch Changes
